@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/PrimaryColor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/onefive">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/onten_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OnTenApp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/threezero" />
+
+            <TextView
+                android:id="@+id/txtwelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/onefive" />
+
+            <Button
+                android:id="@+id/btn_book"
+                android:layout_width="@dimen/ninezero"
+                android:layout_height="@dimen/fourzero"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/onefive"
+                android:background="@drawable/rounded_corners_red"
+                android:text="Start Quiz"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

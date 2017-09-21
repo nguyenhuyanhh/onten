@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/navigation_view_category_2"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_2"></item>
+
+
+        <item android:id="@+id/navigation_view_category_4"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_4"></item>
+
+
+        <item android:id="@+id/navigation_view_category_5"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_5"></item>
+
+
+        <item android:id="@+id/navigation_view_category_6"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_6"></item>
+
+
+        <item android:id="@+id/navigation_view_category_3"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_3"></item>
+
+
+        <item android:id="@+id/navigation_view_category_1"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_24dp"
+            android:title="@string/navigation_view_category_1"></item>
+
+    </group>
+
+</menu>

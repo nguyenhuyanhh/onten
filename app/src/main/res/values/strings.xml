@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">OnTEn</string>
+    <string name="quiz">Quiz</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="activity_result">Result</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="navigation_view_category_1">Content</string>
+    <string name="navigation_view_category_2">Login/Register for Account</string>
+    <string name="navigation_view_category_3">Quizeria</string>
+    <string name="navigation_view_category_4">Courses for Mathematics</string>
+    <string name="navigation_view_category_5">Courses for Microprocessor</string>
+    <string name="navigation_view_category_6">Courses for Signals And Systems</string>
+
+
+    <string name="navigation_view_item_1">Home</string>
+    <string name="navigation_view_item_2">Contributors</string>
+    <string name="navigation_view_item_3">Editorial Board</string>
+    <string name="navigation_view_item_4">Disclaimers</string>
+    <string name="navigation_view_item_5">Login</string>
+    <string name="navigation_view_item_6">Registration</string>
+
+    <string name="navigation_view_item_9">Leaderboard</string>
+    <string name="navigation_view_item_10">Microprocessor Quiz 1</string>
+    <string name="navigation_view_item_11">Microprocessor Quiz 2</string>
+    <string name="navigation_view_item_12">Microprocessor Quiz 3</string>
+    <string name="navigation_view_item_13">Engineering Mathematics Quiz 1</string>
+    <string name="navigation_view_item_14">Engineering Mathematics Quiz 2</string>
+    <string name="navigation_view_item_15">Engineering Mathematics Quiz 3</string>
+    <string name="navigation_view_item_16">Signal and System Quiz 1</string>
+    <string name="navigation_view_item_17">Signal and System Quiz 2</string>
+    <string name="navigation_view_item_18">Signal and System Quiz 3</string>
+
+    <string name="navigation_view_item_100">Complex Numbers</string>
+    <string name="navigation_view_item_101">Complex Variables</string>
+    <string name="navigation_view_item_102">Determinants </string>
+    <string name="navigation_view_item_103">Differentiation and Integration</string>
+    <string name="navigation_view_item_104">Greatest Common Divisor</string>
+    <string name="navigation_view_item_105">Least Common Multiple</string>
+    <string name="navigation_view_item_106">Linear Simultaneous Equations</string>
+    <string name="navigation_view_item_107">Matrices</string>
+    <string name="navigation_view_item_108">Modulo Operation</string>
+    <string name="navigation_view_item_109">Operations on Complex Numbers</string>
+    <string name="navigation_view_item_110">Polynomials</string>
+    <string name="navigation_view_item_111">Series</string>
+    <string name="navigation_view_item_112">Trigonometric Functions and Identities</string>
+    <string name="navigation_view_item_113">Vectors</string>
+
+
+    <string name="navigation_view_item_200">Tut 01-1 Number Systems</string>
+    <string name="navigation_view_item_201">Tut 01-2 Number Conversion</string>
+    <string name="navigation_view_item_202">Tut 02-1 Floating-point Number: IEEE 754-1985</string>
+    <string name="navigation_view_item_203">Tut 02-2 Number Range</string>
+    <string name="navigation_view_item_204">Tut 03-1 Assembler Directives</string>
+    <string name="navigation_view_item_205">Tut 03-2 Getting started with Keil uVision</string>
+    <string name="navigation_view_item_206">Tut 04-1 Load and Store Instructions</string>
+    <string name="navigation_view_item_207">Tut 05-1 ARM Programming: MOV Instruction</string>
+    <string name="navigation_view_item_208">Tut 05-2 ARM Programming: LDR Pseudo Instruction</string>
+    <string name="navigation_view_item_209">Tut 06-1 ARM Programming: Loop</string>
+    <string name="navigation_view_item_210">Tut 08-1 LDM and STM Instructions</string>
+    <string name="navigation_view_item_211">Tut 09-1 Push and Pop in Stack Instructions</string>
+    <string name="navigation_view_item_212">Tut 10-1 ARM Programming: Exception Vector Table</string>
+
+    <string name="navigation_view_item_300">Block-Diagrams</string>
+    <string name="navigation_view_item_301">Causality Condition</string>
+    <string name="navigation_view_item_302">Continuous-Time Fourier Series</string>
+    <string name="navigation_view_item_303">Continuous-Time Fourier Transform</string>
+    <string name="navigation_view_item_304">Continuous-Time Fourier Transform Properties</string>
+    <string name="navigation_view_item_305">Convolution</string>
+    <string name="navigation_view_item_306">Discrete Fourier Transform</string>
+    <string name="navigation_view_item_307">Discrete-Time Fourier Series</string>
+    <string name="navigation_view_item_308">Discrete-Time Fourier Transform</string>
+    <string name="navigation_view_item_309">Discrete-Time Fourier Transform Properties</string>
+    <string name="navigation_view_item_310">Frequency Response</string>
+    <string name="navigation_view_item_311">Gibbs Phenomenon</string>
+    <string name="navigation_view_item_312">Laplace Transform Properties</string>
+    <string name="navigation_view_item_313">Partial-Fraction Expansion</string>
+    <string name="navigation_view_item_314">Stability Condition</string>
+    <string name="navigation_view_item_315">Transfer Function</string>
+    <string name="navigation_view_item_316">z-Transform</string>
+    <string name="navigation_view_item_317">z-Transform Properties</string>
+    <string name="signin_other_error">Signin error</string>
+    <string name="signin_failure">signinfailed</string>
+    <string name="app_id">100293222564</string>
+
+
+    <!--How many times quiz give to that-->
+    <!--Achievements-->
+    <string name="Domination_badge">CgkIpMHEz_UCEAIQAA</string>
+    <string name="EnFuegobadge">CgkIpMHEz_UCEAIQAQ</string>
+    <string name="Veteran_badge">CgkIpMHEz_UCEAIQAg</string>
+    <string name="Annihilation_badge">CgkIpMHEz_UCEAIQAw</string>
+    <!--Leaderboard-->
+    <string name="greenmember">CgkIpMHEz_UCEAIQBA</string>
+    <string name="silvermember">CgkIpMHEz_UCEAIQBQ</string>
+    <string name="goldmember">CgkIpMHEz_UCEAIQBg</string>
+    <string name="navigation_view_item_19">All Quiz Result</string>
+</resources>

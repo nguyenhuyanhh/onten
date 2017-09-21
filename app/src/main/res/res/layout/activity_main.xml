@@ -1,0 +1,40 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/drawerLayout"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <android.support.design.widget.CoordinatorLayout android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+        <WebView android:id="@+id/webView1" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <RelativeLayout android:id="@+id/layoutId" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:visibility="gone">
+            <Button android:id="@+id/closeButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_alignParentRight="true"
+                android:text="Close" />
+
+            <Button android:id="@+id/nextButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_toLeftOf="@+id/closeButton"
+                android:text="Next" />
+
+            <EditText android:id="@+id/findSearch" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_toLeftOf="@+id/nextButton"
+                android:hint="Search keyword" android:singleLine="true"
+                android:background="@drawable/rectangle_edittext" android:gravity="center"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView android:id="@+id/navigation_view"
+        android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_gravity="start" app:headerLayout="@layout/navigation_header"
+        app:theme="@style/Navigation_View_Style" app:itemIconTint="#ffbe32d2"
+        app:menu="@menu/navigation_items" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/five"
+    android:paddingLeft="@dimen/five"
+    android:paddingRight="@dimen/five"
+    android:paddingTop="@dimen/five">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#D60c10"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffff" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#ffff"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Microprocessor Quiz 1"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffff"></LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlprevnextbutton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginBottom="@dimen/five"
+        android:layout_marginTop="@dimen/five" />
+
+    <RelativeLayout
+        android:id="@+id/rlprevnextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fourzero"
+        android:layout_above="@+id/rl_dotlyt"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtbtnprev"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="Prev"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/five"
+            android:layout_marginRight="@dimen/five"
+            android:layout_toLeftOf="@+id/txtbtnnext"
+            android:layout_toRightOf="@+id/txtbtnprev"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/txthours"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/oneseven"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/oneseven"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtminutes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/oneseven"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/oneseven"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtseconds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/oneseven"
+                android:visibility="visible" />
+
+            <Chronometer
+                android:id="@+id/timerABWithTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txttime"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/oneseven"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtbtnnext"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_dotlyt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onefive"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/two"
+        android:layout_marginTop="@dimen/onefive"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+</RelativeLayout>

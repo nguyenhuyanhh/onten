@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.WithoutActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Navigation_View_Style">
+        <item name="android:textSize">12sp</item> <!-- menu item text size-->
+    </style>
+
+</resources>

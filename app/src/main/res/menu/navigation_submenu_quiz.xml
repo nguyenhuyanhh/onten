@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back_to_menu"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/navigation_item_9"
+        android:title="@string/navigation_view_item_9" />
+
+    <item
+        android:id="@+id/navigation_item_10"
+        android:title="@string/navigation_view_item_10" />
+
+    <item
+        android:id="@+id/navigation_item_11"
+        android:title="@string/navigation_view_item_11" />
+
+    <item
+        android:id="@+id/navigation_item_12"
+        android:title="@string/navigation_view_item_12" />
+    <item
+        android:id="@+id/navigation_item_13"
+        android:title="@string/navigation_view_item_13" />
+    <item
+        android:id="@+id/navigation_item_14"
+        android:title="@string/navigation_view_item_14" />
+    <item
+        android:id="@+id/navigation_item_15"
+        android:title="@string/navigation_view_item_15" />
+    <item
+        android:id="@+id/navigation_item_16"
+        android:title="@string/navigation_view_item_16" />
+    <item
+        android:id="@+id/navigation_item_17"
+        android:title="@string/navigation_view_item_17" />
+    <item
+        android:id="@+id/navigation_item_18"
+        android:title="@string/navigation_view_item_18" />
+</menu>

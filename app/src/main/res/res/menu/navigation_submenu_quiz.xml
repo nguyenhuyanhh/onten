@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/back_to_menu" android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Back" />
+
+    <item android:id="@+id/navigation_item_10" android:title="@string/navigation_view_item_10" />
+
+    <item android:id="@+id/navigation_item_11" android:title="@string/navigation_view_item_11" />
+
+</menu>

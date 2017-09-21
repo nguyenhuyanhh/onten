@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/back_to_menu" android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Back" />
+
+    <item android:id="@+id/navigation_item_200" android:title="@string/navigation_view_item_200" />
+
+    <item android:id="@+id/navigation_item_201" android:title="@string/navigation_view_item_201" />
+
+    <item android:id="@+id/navigation_item_202" android:title="@string/navigation_view_item_202" />
+
+    <item android:id="@+id/navigation_item_203" android:title="@string/navigation_view_item_203" />
+
+    <item android:id="@+id/navigation_item_204" android:title="@string/navigation_view_item_204" />
+
+    <item android:id="@+id/navigation_item_205" android:title="@string/navigation_view_item_205" />
+
+    <item android:id="@+id/navigation_item_206" android:title="@string/navigation_view_item_206" />
+
+    <item android:id="@+id/navigation_item_207" android:title="@string/navigation_view_item_207" />
+
+    <item android:id="@+id/navigation_item_208" android:title="@string/navigation_view_item_208" />
+
+    <item android:id="@+id/navigation_item_209" android:title="@string/navigation_view_item_209" />
+
+    <item android:id="@+id/navigation_item_210" android:title="@string/navigation_view_item_210" />
+
+    <item android:id="@+id/navigation_item_211" android:title="@string/navigation_view_item_211" />
+
+    <item android:id="@+id/navigation_item_212" android:title="@string/navigation_view_item_212" />
+
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back_to_menu"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/navigation_item_300"
+        android:title="@string/navigation_view_item_300" />
+
+    <item
+        android:id="@+id/navigation_item_301"
+        android:title="@string/navigation_view_item_301" />
+
+    <item
+        android:id="@+id/navigation_item_302"
+        android:title="@string/navigation_view_item_302" />
+
+    <item
+        android:id="@+id/navigation_item_303"
+        android:title="@string/navigation_view_item_303" />
+
+    <item
+        android:id="@+id/navigation_item_304"
+        android:title="@string/navigation_view_item_304" />
+
+    <item
+        android:id="@+id/navigation_item_305"
+        android:title="@string/navigation_view_item_305" />
+
+    <item
+        android:id="@+id/navigation_item_306"
+        android:title="@string/navigation_view_item_306" />
+
+    <item
+        android:id="@+id/navigation_item_307"
+        android:title="@string/navigation_view_item_307" />
+
+    <item
+        android:id="@+id/navigation_item_308"
+        android:title="@string/navigation_view_item_308" />
+
+    <item
+        android:id="@+id/navigation_item_309"
+        android:title="@string/navigation_view_item_309" />
+
+    <item
+        android:id="@+id/navigation_item_310"
+        android:title="@string/navigation_view_item_310" />
+
+    <item
+        android:id="@+id/navigation_item_311"
+        android:title="@string/navigation_view_item_311" />
+
+    <item
+        android:id="@+id/navigation_item_312"
+        android:title="@string/navigation_view_item_312" />
+
+    <item
+        android:id="@+id/navigation_item_313"
+        android:title="@string/navigation_view_item_313" />
+
+    <item
+        android:id="@+id/navigation_item_314"
+        android:title="@string/navigation_view_item_314" />
+
+    <item
+        android:id="@+id/navigation_item_315"
+        android:title="@string/navigation_view_item_315" />
+
+    <item
+        android:id="@+id/navigation_item_316"
+        android:title="@string/navigation_view_item_316" />
+
+    <item
+        android:id="@+id/navigation_item_317"
+        android:title="@string/navigation_view_item_317" />
+
+</menu>

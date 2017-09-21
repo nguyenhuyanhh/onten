@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_leaderboard" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_scorecard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/progressBar1"
+        android:background="@color/color_1D2330"
+        android:layout_marginTop="@dimen/five"
+        android:scrollbars="none" />
+</LinearLayout>

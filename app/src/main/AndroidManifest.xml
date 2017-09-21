@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onten.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/onten_launcher"
+        android:label="@string/app_name"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".MainLoginActivity">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+        <activity android:name=".MainRegistrationActivity">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+
+        <activity android:name=".LoginActivity">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+        <activity android:name=".RegistrationActivity">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="@string/quiz"></activity>
+        <activity
+            android:name=".QuizActivity1"
+            android:label="@string/quiz"></activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/activity_result"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>

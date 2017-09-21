@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/onezero"
+    android:paddingRight="@dimen/onezero">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/onten_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onezero"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin No:-"
+                android:textSize="@dimen/onefive" />
+
+            <EditText
+                android:id="@+id/edtadminno"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourzero"
+                android:layout_marginLeft="@dimen/five"
+
+                android:hint="Admin No" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onezero"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :-       "
+                android:textSize="@dimen/onefive" />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourzero"
+                android:layout_marginLeft="@dimen/five"
+                android:hint="Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onezero"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :-        "
+                android:textSize="@dimen/onefive" />
+
+            <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourzero"
+                android:layout_marginLeft="@dimen/five"
+                android:hint="Email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onezero"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Course :-       "
+                android:textSize="@dimen/onefive" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/onezero"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/chkmicroprocessor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Microprocessor" />
+
+                <CheckBox
+                    android:id="@+id/checkenge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering Math" />
+
+                <CheckBox
+                    android:id="@+id/checksignals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Signals &amp; System" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onezero"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password :- "
+                android:textSize="@dimen/onefive" />
+
+            <EditText
+                android:id="@+id/edtpassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourzero"
+                android:layout_marginLeft="@dimen/five"
+                android:inputType="textPassword"
+                android:hint="Password" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtsignup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginTop="@dimen/onefive"
+            android:background="@color/PrimaryColor"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/oneeight" />
+    </LinearLayout>
+</LinearLayout>
