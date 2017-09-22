@@ -43,7 +43,7 @@ public class MainLoginActivity extends AppCompatActivity {
         edtpassword = (EditText) findViewById(R.id.edtpassword);
         txtlogin = (TextView) findViewById(R.id.txtlogin);
         registration = (TextView) findViewById(R.id.registration);
-        //txtviewguest = (TextView) findViewById(R.id.txtviewguest);
+        txtviewguest = (TextView) findViewById(R.id.txtviewguest);
 
         progressDialog = new ProgressDialog(MainLoginActivity.this);
         progressDialog.setMessage("processing...");

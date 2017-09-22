@@ -92,7 +92,7 @@
             android:textColor="@android:color/black"
             android:textSize="@dimen/oneeight" />
 
-        <!--<TextView
+        <TextView
             android:id="@+id/txtviewguest"
             android:layout_width="match_parent"
             android:layout_height="@dimen/fourzero"
@@ -100,7 +100,7 @@
             android:gravity="center"
             android:text="View as a guest"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/oneeight" />-->
+            android:textSize="@dimen/oneeight" />
 
     </LinearLayout>
 </LinearLayout>

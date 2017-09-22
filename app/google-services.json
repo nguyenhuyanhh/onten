@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "44170608631",
-    "firebase_url": "https://ontenapplication-4f97a.firebaseio.com",
-    "project_id": "ontenapplication-4f97a",
-    "storage_bucket": "ontenapplication-4f97a.appspot.com"
+    "project_number": "783128595143",
+    "firebase_url": "https://onten-priyankav14.firebaseio.com",
+    "project_id": "onten-priyankav14",
+    "storage_bucket": "onten-priyankav14.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:44170608631:android:941c77af8c6c7361",
+        "mobilesdk_app_id": "1:783128595143:android:941c77af8c6c7361",
         "android_client_info": {
           "package_name": "com.onten.android"
         }
       },
       "oauth_client": [
         {
-          "client_id": "44170608631-p3bp61hthqgcqocce164kloms7f8gr9h.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.onten.android",
-            "certificate_hash": "b2e01661752f83ddd1dd94ddae94e5cc4361fd2d"
-          }
-        },
-        {
-          "client_id": "44170608631-1fq0dkhcs7u5vnfi7pcjrti49mefv0je.apps.googleusercontent.com",
+          "client_id": "783128595143-j3bd7kd8fct7p464rc8fhkop7oijg8dk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOEm38_fVHpChHbM2NBmEOmkjJQdk6AYI"
+          "current_key": "AIzaSyDaq1oXFOHOUF9plZDYX32_d3nhcB7hlDE"
         }
       ],
       "services": {
@@ -37,57 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "44170608631-1fq0dkhcs7u5vnfi7pcjrti49mefv0je.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:44170608631:android:750b6165d1667211",
-        "android_client_info": {
-          "package_name": "com.google.example.games.basegameutils"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "44170608631-fsnun38bt9j896b2j68araedggvv64j0.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.google.example.games.basegameutils",
-            "certificate_hash": "b2e01661752f83ddd1dd94ddae94e5cc4361fd2d"
-          }
-        },
-        {
-          "client_id": "44170608631-1fq0dkhcs7u5vnfi7pcjrti49mefv0je.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCOEm38_fVHpChHbM2NBmEOmkjJQdk6AYI"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "44170608631-1fq0dkhcs7u5vnfi7pcjrti49mefv0je.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
